@@ -56,9 +56,9 @@
         "text_size": "text-xs",
         "navigation_mode": "scrolling",
         "scrolling_speed": 10,
-        "background": "#1B253C",
+        "background": "#1b253c",
         "background_gradient": "",
-        "text_color": "#FFFFFF"
+        "text_color": "#ffffff"
       }
     },
     "header": {
@@ -67,7 +67,7 @@
         "enable_sticky": true,
         "hide_on_scroll": false,
         "logo": "shopify://shop_images/LOGO_DECLIC_FOCUS.png",
-        "logo_max_width": 190,
+        "logo_max_width": 270,
         "logo_mobile_max_width": 115,
         "menu": "main-menu",
         "sidebar_menu": "main-menu",
@@ -80,7 +80,7 @@
         "show_country_selector": true,
         "show_country_flag": true,
         "show_country_name": false,
-        "transparent_header_text_color": "#FFFFFF",
+        "transparent_header_text_color": "#ffffff",
         "transparent_logo": "shopify://shop_images/LOGO_DECLIC_FOCUS.png",
         "reduce_padding": true,
         "background_opacity": 100,
