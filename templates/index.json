@@ -78,14 +78,6 @@
           "type": "separator",
           "settings": {}
         },
-        "description_fYK8kA": {
-          "type": "description",
-          "settings": {
-            "icon": "none",
-            "icon_width": 20,
-            "collapse_content": false
-          }
-        },
         "rapi_bundle_rapi_bundle_kBMwaH": {
           "type": "shopify://apps/rapi-bundle/blocks/rapi-bundle/99617c17-a32b-4e70-a883-7a155610d032",
           "settings": {
@@ -114,7 +106,6 @@
         "badges_tTMnDj",
         "rating_ixxFzW",
         "separator_WrrEwg",
-        "description_fYK8kA",
         "rapi_bundle_rapi_bundle_kBMwaH",
         "buy_buttons_yywFm9",
         "pickup_availability_F4iBRW"
