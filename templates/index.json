@@ -86,6 +86,12 @@
             "collapse_content": false
           }
         },
+        "rapi_bundle_rapi_bundle_kBMwaH": {
+          "type": "shopify://apps/rapi-bundle/blocks/rapi-bundle/99617c17-a32b-4e70-a883-7a155610d032",
+          "settings": {
+            "product": "{{section.settings.product}}"
+          }
+        },
         "buy_buttons_yywFm9": {
           "type": "buy_buttons",
           "settings": {
@@ -109,6 +115,7 @@
         "rating_ixxFzW",
         "separator_WrrEwg",
         "description_fYK8kA",
+        "rapi_bundle_rapi_bundle_kBMwaH",
         "buy_buttons_yywFm9",
         "pickup_availability_F4iBRW"
       ],
@@ -144,17 +151,6 @@
     },
     "17882022008bd66dac": {
       "type": "apps",
-      "blocks": {
-        "rapi_bundle_rapi_bundle_gCFU4A": {
-          "type": "shopify://apps/rapi-bundle/blocks/rapi-bundle/99617c17-a32b-4e70-a883-7a155610d032",
-          "settings": {
-            "product": "le-minuteur-declic™"
-          }
-        }
-      },
-      "block_order": [
-        "rapi_bundle_rapi_bundle_gCFU4A"
-      ],
       "settings": {
         "full_width": true,
         "remove_vertical_spacing": false,
