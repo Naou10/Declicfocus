@@ -185,7 +185,7 @@
             "image_rotation_degrees": 0,
             "subheading": "",
             "title": "Ce n’est pas un problème de volonté. C’est ton portable le vrai problème",
-            "content": "<p>Tu veux travailler, mais ton téléphone est là.<br/><br/>Une notification, un message, un scroll… et ta concentration disparaît.</p><p>Tu n’es pas paresseux.<br/><br/>Tu es juste entouré d’outils conçus pour capter ton attention.</p><h5><strong>Déclic Focus </strong>change ça.</h5><p>Pas d’écran. Pas d’application. Pas de distraction.<br/><br/>Juste un minuteur physique, posé devant toi, qui te ramène à une seule chose : <strong>La concentration la plus totale.</strong></p><p></p>",
+            "content": "<p>Tu veux travailler, mais ton téléphone est là.<br/><br/>Une notification, un message, un scroll sur TIKTOK ou Insta et ta concentration disparaît.</p><p>Tu n’es pas paresseux.<br/><br/>Tu es juste entouré d’outils conçus pour capter ton attention.</p><h5><strong>Déclic Focus </strong>change ça.</h5><p>Pas d’écran. Pas d’application. Pas de distraction.<br/><br/>Juste un minuteur physique, posé devant toi, qui te ramène à une seule chose : <strong>La concentration la plus totale.</strong></p><p></p>",
             "button_url": "",
             "button_text": ""
           }
@@ -212,27 +212,31 @@
         "logo_fNXzQk": {
           "type": "logo",
           "settings": {
-            "logo_width": 50,
+            "logo": "shopify://shop_images/Forbes-logo-transparent.png",
+            "logo_width": 200,
             "link": ""
           }
         },
         "logo_bRBcaR": {
           "type": "logo",
           "settings": {
-            "logo_width": 50,
+            "logo": "shopify://shop_images/ChatGPT_Image_2_sept._2026_00_37_02.png",
+            "logo_width": 300,
             "link": ""
           }
         },
         "logo_KydfmH": {
           "type": "logo",
           "settings": {
-            "logo_width": 120,
+            "logo": "shopify://shop_images/ChatGPT_Image_2_sept._2026_00_38_04.png",
+            "logo_width": 300,
             "link": ""
           }
         },
         "logo_Dwzkeb": {
           "type": "logo",
           "settings": {
+            "logo": "shopify://shop_images/arte_logo_rgb.png",
             "logo_width": 120,
             "link": ""
           }
@@ -243,6 +247,9 @@
         "logo_bRBcaR",
         "logo_KydfmH",
         "logo_Dwzkeb"
+      ],
+      "custom_css": [
+        "h2 {font-size: 32px; }"
       ],
       "name": "Logo list",
       "settings": {
