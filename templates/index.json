@@ -291,12 +291,20 @@
             "title": "29 €, ce n’est pas un peu cher pour un minuteur ?”",
             "content": "<p>Une application de productivité peut te coûter chaque mois. Un après-midi perdu à procrastiner te coûte encore plus en temps, en énergie et en charge mentale.<br/><br/>Déclic Focus est un outil physique que tu poses sur ton bureau, que tu vois, que tu utilises, et qui t’aide à avancer concrètement dès les premières sessions</p>"
           }
+        },
+        "item_khLkVm": {
+          "type": "item",
+          "settings": {
+            "title": "J’ai du mal à rester concentré(e), est-ce que ça peut vraiment m’aider ?”",
+            "content": "<p>Oui, parce que Déclic Focus rend le temps visible.<br/><br/>Au lieu d’avoir une notion floue du temps qui passe, tu as un compte à rebours clair devant toi. Tu sais exactement combien de temps il te reste pour rester concentré(e) sur une seule tâche.<br/><br/>Pas d’écran. Pas de notification. Pas de tentation. Juste toi, ton minuteur, et ce que tu dois terminer.</p>"
+          }
         }
       },
       "block_order": [
         "item_amGyWw",
         "item_DDwpK9",
-        "item_hyxnhC"
+        "item_hyxnhC",
+        "item_khLkVm"
       ],
       "name": "FAQ",
       "settings": {
