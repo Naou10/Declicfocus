@@ -51,6 +51,68 @@
         "background_gradient": "linear-gradient(60deg, rgba(60, 65, 68, 1), rgba(23, 29, 33, 1) 98%)"
       }
     },
+    "logo_list_WtEEbK": {
+      "type": "logo-list",
+      "blocks": {
+        "logo_fNXzQk": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/Forbes-logo-transparent.png",
+            "logo_width": 200,
+            "link": ""
+          }
+        },
+        "logo_bRBcaR": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/ChatGPT_Image_2_sept._2026_00_37_02.png",
+            "logo_width": 300,
+            "link": ""
+          }
+        },
+        "logo_KydfmH": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/ChatGPT_Image_2_sept._2026_00_38_04.png",
+            "logo_width": 300,
+            "link": ""
+          }
+        },
+        "logo_Dwzkeb": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/arte_logo_rgb.png",
+            "logo_width": 120,
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "logo_fNXzQk",
+        "logo_bRBcaR",
+        "logo_KydfmH",
+        "logo_Dwzkeb"
+      ],
+      "custom_css": [
+        "h2 {font-size: 32px;}"
+      ],
+      "name": "Logo list",
+      "settings": {
+        "full_width": true,
+        "stack_mobile": true,
+        "title": "",
+        "content": "<h5>Ils parlent de Déclic Focus</h5>",
+        "text_alignment": "center",
+        "items_per_row": 5,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "logo_item_background": "",
+        "logo_item_border": ""
+      }
+    },
     "featured_product_MpQGwA": {
       "type": "featured-product",
       "blocks": {
@@ -114,7 +176,7 @@
         "liquid_fWkHji": {
           "type": "liquid",
           "settings": {
-            "liquid": "<div class=\"df-trust-reassurance-box\">\n  <div class=\"df-reassurance-top\">\n    \n    <div class=\"df-reassurance-item\">\n      <div class=\"df-reassurance-icon\">\n        <svg viewBox=\"0 0 24 24\">\n          <path d=\"M3 7h11v9H3z\"/>\n          <path d=\"M14 10h4l3 3v3h-7z\"/>\n          <circle cx=\"7\" cy=\"18\" r=\"1.7\"/>\n          <circle cx=\"17.5\" cy=\"18\" r=\"1.7\"/>\n        </svg>\n      </div>\n      <p>Livraison<br>gratuite</p>\n    </div>\n\n    <div class=\"df-reassurance-divider\"></div>\n\n    <div class=\"df-reassurance-item\">\n      <div class=\"df-reassurance-icon\">\n        <svg viewBox=\"0 0 24 24\">\n          <path d=\"M7 10V7a5 5 0 0 1 10 0v3\"/>\n          <rect x=\"5\" y=\"10\" width=\"14\" height=\"10\" rx=\"2\"/>\n          <path d=\"M12 14v3\"/>\n        </svg>\n      </div>\n      <p>Paiement<br>sécurisé</p>\n    </div>\n\n    <div class=\"df-reassurance-divider\"></div>\n\n    <div class=\"df-reassurance-item\">\n      <div class=\"df-reassurance-icon\">\n        <svg viewBox=\"0 0 24 24\">\n          <path d=\"M17 3v4h-4\"/>\n          <path d=\"M18.5 8A7 7 0 0 0 6 5.5\"/>\n          <path d=\"M7 21v-4h4\"/>\n          <path d=\"M5.5 16A7 7 0 0 0 18 18.5\"/>\n          <path d=\"M9 12h6\"/>\n          <path d=\"M12 9v6\"/>\n        </svg>\n      </div>\n      <p>Satisfait ou<br>remboursé</p>\n    </div>\n\n  </div>\n\n  <div class=\"df-trust-divider\"></div>\n\n  <div class=\"df-trustpilot-section\">\n    <div class=\"df-trustpilot-line\">\n      <span class=\"df-trustpilot-label\">EXCELLENT</span>\n\n      <div class=\"df-stars\">\n        <span>★</span>\n        <span>★</span>\n        <span>★</span>\n        <span>★</span>\n        <span class=\"df-star-half\">★</span>\n      </div>\n    </div>\n\n    <div class=\"df-trustpilot-bottom\">\n      <span>noté <strong>4,8/5</strong> sur</span>\n      <span class=\"df-trustpilot-brand\">\n        <span class=\"df-trustpilot-star\">★</span>\n        <strong>Trustpilot</strong>\n      </span>\n    </div>\n  </div>\n</div>\n\n<style>\n  .df-trust-reassurance-box {\n    width: 100%;\n    max-width: 680px;\n    margin: 18px auto;\n    padding: 24px 28px;\n    background: #F8FAFC;\n    border: 1px solid #E2E8F0;\n    border-radius: 18px;\n    font-family: Arial, Helvetica, sans-serif;\n    color: #0F172A;\n  }\n\n  .df-reassurance-top {\n    display: grid;\n    grid-template-columns: 1fr auto 1fr auto 1fr;\n    align-items: center;\n    gap: 20px;\n  }\n\n  .df-reassurance-item {\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    gap: 13px;\n    min-width: 0;\n  }\n\n  .df-reassurance-icon {\n    width: 38px;\n    height: 38px;\n    flex-shrink: 0;\n    color: #183B44;\n  }\n\n  .df-reassurance-icon svg {\n    width: 38px;\n    height: 38px;\n    fill: none;\n    stroke: currentColor;\n    stroke-width: 1.9;\n    stroke-linecap: round;\n    stroke-linejoin: round;\n  }\n\n  .df-reassurance-item p {\n    margin: 0;\n    font-size: 16px;\n    font-weight: 800;\n    line-height: 1.08;\n    letter-spacing: -0.25px;\n    color: #0B1220;\n  }\n\n  .df-reassurance-divider {\n    width: 1px;\n    height: 54px;\n    background: #E2E8F0;\n  }\n\n  .df-trust-divider {\n    width: 100%;\n    height: 1px;\n    background: #E2E8F0;\n    margin: 24px 0 22px;\n  }\n\n  .df-trustpilot-section {\n    text-align: center;\n  }\n\n  .df-trustpilot-line {\n    display: inline-flex;\n    align-items: center;\n    justify-content: center;\n    gap: 14px;\n    margin-bottom: 14px;\n  }\n\n  .df-trustpilot-label {\n    font-size: 18px;\n    font-weight: 900;\n    letter-spacing: -0.3px;\n    color: #050505;\n  }\n\n  .df-stars {\n    display: flex;\n    align-items: center;\n    gap: 4px;\n  }\n\n  .df-stars span {\n    width: 28px;\n    height: 28px;\n    background: #00B67A;\n    color: #FFFFFF;\n    display: inline-flex;\n    align-items: center;\n    justify-content: center;\n    font-size: 19px;\n    font-weight: 900;\n    line-height: 1;\n    border-radius: 3px;\n  }\n\n  .df-stars .df-star-half {\n    background: linear-gradient(90deg, #00B67A 82%, #D9D9D9 82%);\n  }\n\n  .df-trustpilot-bottom {\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    gap: 9px;\n    font-size: 17px;\n    font-weight: 600;\n    color: #4B5563;\n  }\n\n  .df-trustpilot-bottom strong {\n    color: #111827;\n    font-weight: 900;\n  }\n\n  .df-trustpilot-brand {\n    display: inline-flex;\n    align-items: center;\n    gap: 6px;\n    color: #111827;\n  }\n\n  .df-trustpilot-star {\n    color: #00B67A;\n    font-size: 23px;\n    line-height: 1;\n  }\n\n  @media screen and (max-width: 749px) {\n    .df-trust-reassurance-box {\n      padding: 18px 14px;\n      border-radius: 14px;\n      margin: 14px auto;\n    }\n\n    .df-reassurance-top {\n      gap: 8px;\n    }\n\n    .df-reassurance-item {\n      flex-direction: column;\n      gap: 7px;\n      text-align: center;\n    }\n\n    .df-reassurance-icon,\n    .df-reassurance-icon svg {\n      width: 28px;\n      height: 28px;\n    }\n\n    .df-reassurance-item p {\n      font-size: 12px;\n      line-height: 1.1;\n      letter-spacing: -0.15px;\n    }\n\n    .df-reassurance-divider {\n      height: 48px;\n    }\n\n    .df-trust-divider {\n      margin: 18px 0 16px;\n    }\n\n    .df-trustpilot-line {\n      gap: 9px;\n      margin-bottom: 10px;\n    }\n\n    .df-trustpilot-label {\n      font-size: 14px;\n    }\n\n    .df-stars {\n      gap: 3px;\n    }\n\n    .df-stars span {\n      width: 22px;\n      height: 22px;\n      font-size: 15px;\n      border-radius: 2px;\n    }\n\n    .df-trustpilot-bottom {\n      font-size: 14px;\n      gap: 6px;\n      flex-wrap: wrap;\n    }\n\n    .df-trustpilot-star {\n      font-size: 19px;\n    }\n  }\n</style>"
+            "liquid": "<div class=\"df-trust-reassurance-box\">\n  <div class=\"df-reassurance-top\">\n    \n    <div class=\"df-reassurance-item\">\n      <div class=\"df-reassurance-icon\">\n        <svg viewBox=\"0 0 24 24\">\n          <path d=\"M3 7h11v9H3z\"/>\n          <path d=\"M14 10h4l3 3v3h-7z\"/>\n          <circle cx=\"7\" cy=\"18\" r=\"1.7\"/>\n          <circle cx=\"17.5\" cy=\"18\" r=\"1.7\"/>\n        </svg>\n      </div>\n      <p>Livraison<br>gratuite</p>\n    </div>\n\n    <div class=\"df-reassurance-divider\"></div>\n\n    <div class=\"df-reassurance-item\">\n      <div class=\"df-reassurance-icon\">\n        <svg viewBox=\"0 0 24 24\">\n          <path d=\"M7 10V7a5 5 0 0 1 10 0v3\"/>\n          <rect x=\"5\" y=\"10\" width=\"14\" height=\"10\" rx=\"2\"/>\n          <path d=\"M12 14v3\"/>\n        </svg>\n      </div>\n      <p>Paiement<br>sécurisé</p>\n    </div>\n\n    <div class=\"df-reassurance-divider\"></div>\n\n    <div class=\"df-reassurance-item\">\n      <div class=\"df-reassurance-icon\">\n        <svg viewBox=\"0 0 24 24\">\n          <path d=\"M17 3v4h-4\"/>\n          <path d=\"M18.5 8A7 7 0 0 0 6 5.5\"/>\n          <path d=\"M7 21v-4h4\"/>\n          <path d=\"M5.5 16A7 7 0 0 0 18 18.5\"/>\n          <path d=\"M9 12h6\"/>\n          <path d=\"M12 9v6\"/>\n        </svg>\n      </div>\n      <p>Satisfait ou<br>remboursé</p>\n    </div>\n\n  </div>\n\n  <div class=\"df-trust-divider\"></div>\n\n  <div class=\"df-trustpilot-section\">\n    <div class=\"df-trustpilot-line\">\n      <span class=\"df-trustpilot-label\">EXCELLENT</span>\n\n      <div class=\"df-stars\">\n        <span>★</span>\n        <span>★</span>\n        <span>★</span>\n        <span>★</span>\n        <span>★</span>\n      </div>\n    </div>\n\n    <div class=\"df-trustpilot-bottom\">\n      <span>noté <strong>4,8/5</strong> sur</span>\n      <span class=\"df-trustpilot-brand\">\n        <span class=\"df-trustpilot-star\">★</span>\n        <strong>Trustpilot</strong>\n      </span>\n    </div>\n  </div>\n</div>\n\n<style>\n  .df-trust-reassurance-box {\n    width: 100%;\n    max-width: 680px;\n    margin: 18px auto;\n    padding: 24px 28px;\n    background: transparent;\n    border: none;\n    border-radius: 0;\n    font-family: Arial, Helvetica, sans-serif;\n    color: #0F172A;\n  }\n\n  .df-reassurance-top {\n    display: grid;\n    grid-template-columns: 1fr auto 1fr auto 1fr;\n    align-items: center;\n    gap: 20px;\n  }\n\n  .df-reassurance-item {\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    justify-content: center;\n    gap: 10px;\n    text-align: center;\n    min-width: 0;\n  }\n\n  .df-reassurance-icon {\n    width: 36px;\n    height: 36px;\n    flex-shrink: 0;\n    color: #183B44;\n  }\n\n  .df-reassurance-icon svg {\n    width: 36px;\n    height: 36px;\n    fill: none;\n    stroke: currentColor;\n    stroke-width: 1.9;\n    stroke-linecap: round;\n    stroke-linejoin: round;\n  }\n\n  .df-reassurance-item p {\n    margin: 0;\n    font-size: 16px;\n    font-weight: 850;\n    line-height: 1.08;\n    letter-spacing: -0.25px;\n    color: #0B1220;\n  }\n\n  .df-reassurance-divider {\n    width: 1px;\n    height: 70px;\n    background: #E2E8F0;\n  }\n\n  .df-trust-divider {\n    width: 100%;\n    height: 1px;\n    background: #E2E8F0;\n    margin: 28px 0 24px;\n  }\n\n  .df-trustpilot-section {\n    text-align: center;\n  }\n\n  .df-trustpilot-line {\n    display: inline-flex;\n    align-items: center;\n    justify-content: center;\n    gap: 14px;\n    margin-bottom: 14px;\n  }\n\n  .df-trustpilot-label {\n    font-size: 20px;\n    font-weight: 900;\n    letter-spacing: -0.4px;\n    color: #050505;\n  }\n\n  .df-stars {\n    display: flex;\n    align-items: center;\n    gap: 5px;\n  }\n\n  .df-stars span {\n    width: 30px;\n    height: 30px;\n    background: #00B67A;\n    color: #FFFFFF;\n    display: inline-flex;\n    align-items: center;\n    justify-content: center;\n    font-size: 21px;\n    font-weight: 900;\n    line-height: 1;\n    border-radius: 4px;\n  }\n\n  .df-trustpilot-bottom {\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    gap: 9px;\n    font-size: 18px;\n    font-weight: 600;\n    color: #4B5563;\n  }\n\n  .df-trustpilot-bottom strong {\n    color: #111827;\n    font-weight: 900;\n  }\n\n  .df-trustpilot-brand {\n    display: inline-flex;\n    align-items: center;\n    gap: 6px;\n    color: #111827;\n  }\n\n  .df-trustpilot-star {\n    color: #00B67A;\n    font-size: 25px;\n    line-height: 1;\n  }\n\n  @media screen and (max-width: 749px) {\n    .df-trust-reassurance-box {\n      padding: 18px 6px;\n      margin: 12px auto;\n    }\n\n    .df-reassurance-top {\n      gap: 8px;\n    }\n\n    .df-reassurance-icon,\n    .df-reassurance-icon svg {\n      width: 28px;\n      height: 28px;\n    }\n\n    .df-reassurance-item p {\n      font-size: 12px;\n      line-height: 1.1;\n      letter-spacing: -0.15px;\n    }\n\n    .df-reassurance-divider {\n      height: 56px;\n    }\n\n    .df-trust-divider {\n      margin: 20px 0 18px;\n    }\n\n    .df-trustpilot-line {\n      gap: 9px;\n      margin-bottom: 10px;\n    }\n\n    .df-trustpilot-label {\n      font-size: 15px;\n    }\n\n    .df-stars {\n      gap: 3px;\n    }\n\n    .df-stars span {\n      width: 23px;\n      height: 23px;\n      font-size: 16px;\n      border-radius: 3px;\n    }\n\n    .df-trustpilot-bottom {\n      font-size: 14px;\n      gap: 6px;\n      flex-wrap: wrap;\n    }\n\n    .df-trustpilot-star {\n      font-size: 20px;\n    }\n  }\n</style>"
           }
         }
       },
@@ -205,76 +267,14 @@
         "button_background": "",
         "button_text_color": "#ffffff"
       }
-    },
-    "logo_list_WtEEbK": {
-      "type": "logo-list",
-      "blocks": {
-        "logo_fNXzQk": {
-          "type": "logo",
-          "settings": {
-            "logo": "shopify://shop_images/Forbes-logo-transparent.png",
-            "logo_width": 200,
-            "link": ""
-          }
-        },
-        "logo_bRBcaR": {
-          "type": "logo",
-          "settings": {
-            "logo": "shopify://shop_images/ChatGPT_Image_2_sept._2026_00_37_02.png",
-            "logo_width": 300,
-            "link": ""
-          }
-        },
-        "logo_KydfmH": {
-          "type": "logo",
-          "settings": {
-            "logo": "shopify://shop_images/ChatGPT_Image_2_sept._2026_00_38_04.png",
-            "logo_width": 300,
-            "link": ""
-          }
-        },
-        "logo_Dwzkeb": {
-          "type": "logo",
-          "settings": {
-            "logo": "shopify://shop_images/arte_logo_rgb.png",
-            "logo_width": 120,
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "logo_fNXzQk",
-        "logo_bRBcaR",
-        "logo_KydfmH",
-        "logo_Dwzkeb"
-      ],
-      "custom_css": [
-        "h2 {font-size: 32px;}"
-      ],
-      "name": "Logo list",
-      "settings": {
-        "full_width": true,
-        "stack_mobile": true,
-        "title": "",
-        "content": "<h3>Ils parlent de Déclic Focus</h3>",
-        "text_alignment": "center",
-        "items_per_row": 5,
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "logo_item_background": "",
-        "logo_item_border": ""
-      }
     }
   },
   "order": [
     "slideshow",
+    "logo_list_WtEEbK",
     "featured_product_MpQGwA",
     "17882021846adac2dd",
     "17882022008bd66dac",
-    "multiple_images_with_text_xmaJh4",
-    "logo_list_WtEEbK"
+    "multiple_images_with_text_xmaJh4"
   ]
 }
