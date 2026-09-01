@@ -309,8 +309,8 @@
         "item_B9yRyW": {
           "type": "item",
           "settings": {
-            "title": "J’ai du mal à rester concentré(e), est-ce que ça peut vraiment m’aider ?”",
-            "content": "<p>Oui, parce que Déclic Focus rend le temps visible.<br/><br/>Au lieu d’avoir une notion floue du temps qui passe, tu as un compte à rebours clair devant toi. Tu sais exactement combien de temps il te reste pour rester concentré(e) sur une seule tâche.<br/><br/>Pas d’écran. Pas de notification. Pas de tentation. Juste toi, ton minuteur, et ce que tu dois terminer.</p>"
+            "title": "Combien de temps dure la pile ?",
+            "content": "<p>Déclic Focus fonctionne avec une pile AAA.<br/><br/>Avec une utilisation quotidienne, elle peut tenir plusieurs mois. Et quand il faut la remplacer, ça prend quelques secondes.<br/><br/>Pas de câble USB. Pas de base de chargement. Pas d’attente.</p>"
           }
         }
       },
