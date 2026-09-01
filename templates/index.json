@@ -271,13 +271,6 @@
     "faq_AfL8ih": {
       "type": "faq",
       "blocks": {
-        "item_DDwpK9": {
-          "type": "item",
-          "settings": {
-            "title": "J’ai déjà essayé plein d’outils de productivité, ça ne tient jamais.",
-            "content": "<p>La plupart des outils échouent parce qu’ils rajoutent de la complexité : une nouvelle appli, un nouveau système, encore quelque chose à paramétrer.<br/><br/>Déclic Focus fait l’inverse : il simplifie.<br/><br/>Tu tournes le minuteur. Tu te concentres. C’est tout.<br/><br/>Pas de compte à créer, pas de réglages compliqués, pas de prise de tête.</p>"
-          }
-        },
         "item_amGyWw": {
           "type": "item",
           "settings": {
@@ -285,17 +278,24 @@
             "content": "<p>Tu pourrais. Mais soyons honnêtes : tu risques de finir sur Instagram au bout de trois minutes. Ton téléphone n’est pas qu’un minuteur, c’est une porte ouverte vers tout ce qui est conçu pour capter ton attention.<br/><br/><strong>Déclic Focus, lui, ne peut pas te distraire.</strong> Il n’a pas d’applications, pas de notifications, pas d’algorithme. Et c’est justement ça qui change tout.</p>"
           }
         },
+        "item_DDwpK9": {
+          "type": "item",
+          "settings": {
+            "title": "J’ai déjà essayé plein d’outils de productivité, ça ne tient jamais.",
+            "content": "<p>La plupart des outils échouent parce qu’ils rajoutent de la complexité : une nouvelle appli, un nouveau système, encore quelque chose à paramétrer.<br/><br/>Déclic Focus fait l’inverse : il simplifie.<br/><br/>Tu tournes le minuteur. Tu te concentres. C’est tout.<br/><br/>Pas de compte à créer, pas de réglages compliqués, pas de prise de tête.</p>"
+          }
+        },
         "item_hyxnhC": {
           "type": "item",
           "settings": {
-            "title": "Any question?",
-            "content": "<p>You can contact us through our contact page! We will be happy to assist you.</p>"
+            "title": "29 €, ce n’est pas un peu cher pour un minuteur ?”",
+            "content": "<p>Une application de productivité peut te coûter chaque mois. Un après-midi perdu à procrastiner te coûte encore plus en temps, en énergie et en charge mentale.<br/><br/>Déclic Focus est un outil physique que tu poses sur ton bureau, que tu vois, que tu utilises, et qui t’aide à avancer concrètement dès les premières sessions</p>"
           }
         }
       },
       "block_order": [
-        "item_DDwpK9",
         "item_amGyWw",
+        "item_DDwpK9",
         "item_hyxnhC"
       ],
       "name": "FAQ",
