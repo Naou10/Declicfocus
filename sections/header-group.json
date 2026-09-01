@@ -66,9 +66,9 @@
       "settings": {
         "enable_sticky": true,
         "hide_on_scroll": false,
-        "logo": "shopify://shop_images/LOGO_DECLIC_FOCUS.png",
+        "logo": "shopify://shop_images/logo_aggrandi.png",
         "logo_max_width": 220,
-        "logo_mobile_max_width": 130,
+        "logo_mobile_max_width": 155,
         "menu": "main-menu",
         "sidebar_menu": "main-menu",
         "secondary_menu": "",
@@ -81,7 +81,7 @@
         "show_country_flag": true,
         "show_country_name": false,
         "transparent_header_text_color": "#ffffff",
-        "transparent_logo": "shopify://shop_images/LOGO_DECLIC_FOCUS.png",
+        "transparent_logo": "shopify://shop_images/logo_aggrandi.png",
         "reduce_padding": true,
         "background_opacity": 100,
         "background_blur_radius": 0
