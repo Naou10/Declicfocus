@@ -267,6 +267,59 @@
         "button_background": "",
         "button_text_color": "#ffffff"
       }
+    },
+    "faq_AfL8ih": {
+      "type": "faq",
+      "blocks": {
+        "item_DDwpK9": {
+          "type": "item",
+          "settings": {
+            "title": "",
+            "content": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.</p>"
+          }
+        },
+        "item_amGyWw": {
+          "type": "item",
+          "settings": {
+            "title": "Est-ce que je ne peux pas juste utiliser le minuteur de mon téléphone ?",
+            "content": "<p>Tu pourrais. Mais soyons honnêtes : tu risques de finir sur Instagram au bout de trois minutes. Ton téléphone n’est pas qu’un minuteur, c’est une porte ouverte vers tout ce qui est conçu pour capter ton attention.<br/><br/><strong>Déclic Focus, lui, ne peut pas te distraire.</strong> Il n’a pas d’applications, pas de notifications, pas d’algorithme. Et c’est justement ça qui change tout.</p>"
+          }
+        },
+        "item_hyxnhC": {
+          "type": "item",
+          "settings": {
+            "title": "Any question?",
+            "content": "<p>You can contact us through our contact page! We will be happy to assist you.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_DDwpK9",
+        "item_amGyWw",
+        "item_hyxnhC"
+      ],
+      "name": "FAQ",
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "FAQ",
+        "content": "<h2></h2><h6>Si tu es toujours là, c’est sûrement pour l’une de ces raisons.</h6>",
+        "team_avatar_width": 160,
+        "support_hours": "Notre service client est ouvert du Lundi au vendredi 8:00-18:00. Du Samedi au Dimanche de 10:00-14:00",
+        "answer_time": "",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "",
+        "accordion_text_color": ""
+      }
     }
   },
   "order": [
@@ -275,6 +328,7 @@
     "featured_product_MpQGwA",
     "17882021846adac2dd",
     "17882022008bd66dac",
-    "multiple_images_with_text_xmaJh4"
+    "multiple_images_with_text_xmaJh4",
+    "faq_AfL8ih"
   ]
 }
