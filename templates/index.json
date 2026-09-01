@@ -203,7 +203,62 @@
         "background_gradient": "",
         "text_color": "",
         "button_background": "",
-        "button_text_color": "#FFFFFF"
+        "button_text_color": "#ffffff"
+      }
+    },
+    "logo_list_WtEEbK": {
+      "type": "logo-list",
+      "blocks": {
+        "logo_fNXzQk": {
+          "type": "logo",
+          "settings": {
+            "logo_width": 50,
+            "link": ""
+          }
+        },
+        "logo_bRBcaR": {
+          "type": "logo",
+          "settings": {
+            "logo_width": 50,
+            "link": ""
+          }
+        },
+        "logo_KydfmH": {
+          "type": "logo",
+          "settings": {
+            "logo_width": 120,
+            "link": ""
+          }
+        },
+        "logo_Dwzkeb": {
+          "type": "logo",
+          "settings": {
+            "logo_width": 120,
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "logo_fNXzQk",
+        "logo_bRBcaR",
+        "logo_KydfmH",
+        "logo_Dwzkeb"
+      ],
+      "name": "Logo list",
+      "settings": {
+        "full_width": true,
+        "stack_mobile": true,
+        "title": "",
+        "content": "<h3>Ils parlent de Déclic Focus</h3>",
+        "text_alignment": "center",
+        "items_per_row": 5,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "logo_item_background": "",
+        "logo_item_border": ""
       }
     }
   },
@@ -212,6 +267,7 @@
     "featured_product_MpQGwA",
     "17882021846adac2dd",
     "17882022008bd66dac",
-    "multiple_images_with_text_xmaJh4"
+    "multiple_images_with_text_xmaJh4",
+    "logo_list_WtEEbK"
   ]
 }
