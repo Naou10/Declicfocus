@@ -54,6 +54,12 @@
     "featured_product_MpQGwA": {
       "type": "featured-product",
       "blocks": {
+        "liquid_fWkHji": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div class=\"df-reassurance-bar\">\n  <div class=\"df-reassurance-item\">\n    <div class=\"df-reassurance-icon\">\n      <svg viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n        <path d=\"M17 9V7a5 5 0 0 0-10 0v2H5v12h14V9h-2Zm-8 0V7a3 3 0 0 1 6 0v2H9Zm8 10H7v-8h10v8Z\"/>\n      </svg>\n    </div>\n    <span>Paiement<br>Sécurisé</span>\n  </div>\n\n  <div class=\"df-reassurance-item\">\n    <div class=\"df-reassurance-icon\">\n      <svg viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n        <path d=\"M3 5h11v10h2.2l2-3H21v6h-2a3 3 0 0 1-6 0H9a3 3 0 0 1-6 0H1V7a2 2 0 0 1 2-2Zm0 2v9h1.2a3 3 0 0 1 5.6 0H12V7H3Zm13 6v3h.2a3 3 0 0 1 2.6 0H19v-2h-1.9l-1.1 1.7V13Zm-10 6a1 1 0 1 0 0-2 1 1 0 0 0 0 2Zm10 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2Z\"/>\n      </svg>\n    </div>\n    <span>Livraison<br>offerte</span>\n  </div>\n\n  <div class=\"df-reassurance-item\">\n    <div class=\"df-reassurance-icon\">\n      <svg viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n        <path d=\"M12 3a9 9 0 0 1 8.5 6H18a7 7 0 0 0-12.9-1.4L7 7.5V10H3.5L5.2 8.3A9 9 0 0 1 12 3Zm0 18a9 9 0 0 1-8.5-6H6a7 7 0 0 0 12.9 1.4L17 16.5V14h3.5l-1.7 1.7A9 9 0 0 1 12 21Zm1-14v2h2v2h-2v1h2v2h-2v2h-2v-2H9v-2h2v-1H9V9h2V7h2Z\"/>\n      </svg>\n    </div>\n    <span>Satisfait ou<br>Remboursé</span>\n  </div>\n</div>\n\n<style>\n  .df-reassurance-bar {\n    width: 100%;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    gap: 52px;\n    padding: 22px 20px;\n    background: #F8FAFC;\n    border-radius: 0;\n    font-family: Arial, Helvetica, sans-serif;\n  }\n\n  .df-reassurance-item {\n    display: flex;\n    align-items: center;\n    gap: 14px;\n    color: #0F172A;\n    font-weight: 800;\n    font-size: 20px;\n    line-height: 1.12;\n    white-space: nowrap;\n  }\n\n  .df-reassurance-icon {\n    width: 58px;\n    height: 58px;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    color: #334E52;\n    flex-shrink: 0;\n  }\n\n  .df-reassurance-icon svg {\n    width: 58px;\n    height: 58px;\n    fill: currentColor;\n  }\n\n  @media screen and (max-width: 749px) {\n    .df-reassurance-bar {\n      gap: 0;\n      justify-content: space-between;\n      padding: 16px 10px;\n    }\n\n    .df-reassurance-item {\n      flex-direction: column;\n      gap: 7px;\n      text-align: center;\n      font-size: 12px;\n      line-height: 1.15;\n      width: 33.33%;\n    }\n\n    .df-reassurance-icon {\n      width: 34px;\n      height: 34px;\n    }\n\n    .df-reassurance-icon svg {\n      width: 34px;\n      height: 34px;\n    }\n  }\n</style>"
+          }
+        },
         "liquid_MhwMdY": {
           "type": "liquid",
           "settings": {
@@ -107,6 +113,7 @@
         }
       },
       "block_order": [
+        "liquid_fWkHji",
         "liquid_MhwMdY",
         "vendor_eeqGBd",
         "title_mcNGUx",
