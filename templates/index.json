@@ -132,7 +132,7 @@
         "liquid_fWkHji"
       ],
       "custom_css": [
-        ".product-form__submit, .product-form__buttons button, form[action*=\"/cart/add\"] button[type=\"submit\"] {font-size: 20px !important; padding: 24px 32px !important; min-height: 60px !important; }"
+        ".product-form__submit,.product-form__buttons button,form[action*=\"/cart/add\"] button[type=\"submit\"] {font-size: 20px !important; padding: 24px 32px !important; min-height: 60px !important;}"
       ],
       "name": "Featured product",
       "settings": {
@@ -174,12 +174,44 @@
         "background_gradient": "",
         "text_color": ""
       }
+    },
+    "multiple_images_with_text_xmaJh4": {
+      "type": "multiple-images-with-text",
+      "blocks": {
+        "item_pJw9Yp": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/image_site.png",
+            "image_rotation_degrees": 0,
+            "subheading": "",
+            "title": "Ce n’est pas un problème de volonté. C’est ton portable le vrai problème",
+            "content": "<p>Tu veux travailler, mais ton téléphone est là.<br/><br/>Une notification, un message, un scroll… et ta concentration disparaît.</p><p>Tu n’es pas paresseux.<br/><br/>Tu es juste entouré d’outils conçus pour capter ton attention.</p><h5><strong>Déclic Focus </strong>change ça.</h5><p>Pas d’écran. Pas d’application. Pas de distraction.<br/><br/>Juste un minuteur physique, posé devant toi, qui te ramène à une seule chose : <strong>La concentration la plus totale.</strong></p><p></p>",
+            "button_url": "",
+            "button_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_pJw9Yp"
+      ],
+      "name": "Multiple images with text",
+      "settings": {
+        "full_width": true,
+        "images_layout": "stacked",
+        "collage_images_alignment": "top",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": "#FFFFFF"
+      }
     }
   },
   "order": [
     "slideshow",
     "featured_product_MpQGwA",
     "17882021846adac2dd",
-    "17882022008bd66dac"
+    "17882022008bd66dac",
+    "multiple_images_with_text_xmaJh4"
   ]
 }
