@@ -131,6 +131,9 @@
         "pickup_availability_F4iBRW",
         "liquid_fWkHji"
       ],
+      "custom_css": [
+        ".product-form__submit, .product-form__buttons button, form[action*=\"/cart/add\"] button[type=\"submit\"] {font-size: 20px !important; padding: 24px 32px !important; min-height: 60px !important; }"
+      ],
       "name": "Featured product",
       "settings": {
         "full_width": true,
