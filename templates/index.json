@@ -298,13 +298,29 @@
             "title": "J’ai du mal à rester concentré(e), est-ce que ça peut vraiment m’aider ?”",
             "content": "<p>Oui, parce que Déclic Focus rend le temps visible.<br/><br/>Au lieu d’avoir une notion floue du temps qui passe, tu as un compte à rebours clair devant toi. Tu sais exactement combien de temps il te reste pour rester concentré(e) sur une seule tâche.<br/><br/>Pas d’écran. Pas de notification. Pas de tentation. Juste toi, ton minuteur, et ce que tu dois terminer.</p>"
           }
+        },
+        "item_mU4B68": {
+          "type": "item",
+          "settings": {
+            "title": "Et si ça ne me convient pas ?",
+            "content": "<p>Tu as 30 jours pour l’essayer.<br/><br/>S’il ne te convient pas, tu peux nous le retourner et être remboursé(e), simplement.</p>"
+          }
+        },
+        "item_B9yRyW": {
+          "type": "item",
+          "settings": {
+            "title": "J’ai du mal à rester concentré(e), est-ce que ça peut vraiment m’aider ?”",
+            "content": "<p>Oui, parce que Déclic Focus rend le temps visible.<br/><br/>Au lieu d’avoir une notion floue du temps qui passe, tu as un compte à rebours clair devant toi. Tu sais exactement combien de temps il te reste pour rester concentré(e) sur une seule tâche.<br/><br/>Pas d’écran. Pas de notification. Pas de tentation. Juste toi, ton minuteur, et ce que tu dois terminer.</p>"
+          }
         }
       },
       "block_order": [
         "item_amGyWw",
         "item_DDwpK9",
         "item_hyxnhC",
-        "item_khLkVm"
+        "item_khLkVm",
+        "item_mU4B68",
+        "item_B9yRyW"
       ],
       "name": "FAQ",
       "settings": {
