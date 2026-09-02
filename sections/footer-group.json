@@ -43,14 +43,14 @@
         "discount": {
           "type": "item",
           "settings": {
-            "icon": "picto-coupon",
-            "mobile_icon_width": 24,
-            "icon_width": 24,
-            "icon_background_type": "none",
-            "icon_background": "",
-            "icon_color": "",
-            "title": "Refer a friend",
-            "content": "<p>Tell your customers about your promotional offers.</p>"
+            "icon": "picto-lock",
+            "mobile_icon_width": 40,
+            "icon_width": 40,
+            "icon_background_type": "circle",
+            "icon_background": "#0B2447",
+            "icon_color": "#FFFFFF",
+            "title": "Paiement  100 % sécurisé",
+            "content": ""
           }
         },
         "payment": {
