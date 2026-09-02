@@ -56,14 +56,14 @@
         "payment": {
           "type": "item",
           "settings": {
-            "icon": "picto-lock",
-            "mobile_icon_width": 24,
-            "icon_width": 24,
-            "icon_background_type": "none",
-            "icon_background": "",
-            "icon_color": "",
-            "title": "Secure payment",
-            "content": "<p>Tel your customers about your payment methods.</p>"
+            "icon": "picto-return",
+            "mobile_icon_width": 40,
+            "icon_width": 40,
+            "icon_background_type": "circle",
+            "icon_background": "#0B2447",
+            "icon_color": "#FFFFFF",
+            "title": "Satisfait ou remboursé",
+            "content": ""
           }
         }
       },
