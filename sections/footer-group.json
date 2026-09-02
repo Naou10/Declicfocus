@@ -31,13 +31,13 @@
           "type": "item",
           "settings": {
             "icon": "picto-customer-support",
-            "mobile_icon_width": 24,
-            "icon_width": 24,
+            "mobile_icon_width": 40,
+            "icon_width": 40,
             "icon_background_type": "none",
             "icon_background": "",
             "icon_color": "",
-            "title": "Customer service",
-            "content": "<p>Tell your customers how they can reach you.</p>"
+            "title": "Service client 7 jours sur 7",
+            "content": "<p>Réponse sous 24-48h</p>"
           }
         },
         "discount": {
