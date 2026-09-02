@@ -20,10 +20,10 @@
             "icon": "picto-box",
             "mobile_icon_width": 40,
             "icon_width": 40,
-            "icon_background_type": "none",
-            "icon_background": "",
-            "icon_color": "",
-            "title": "Livraison gratuite",
+            "icon_background_type": "circle",
+            "icon_background": "#0B2447",
+            "icon_color": "#FFFFFF",
+            "title": "Livraison Offerte",
             "content": ""
           }
         },
@@ -33,11 +33,11 @@
             "icon": "picto-customer-support",
             "mobile_icon_width": 40,
             "icon_width": 40,
-            "icon_background_type": "none",
-            "icon_background": "",
-            "icon_color": "",
+            "icon_background_type": "circle",
+            "icon_background": "#0B2447",
+            "icon_color": "#FFFFFF",
             "title": "Service client 7 jours sur 7",
-            "content": "<p>Réponse sous 24-48h</p>"
+            "content": ""
           }
         },
         "discount": {
