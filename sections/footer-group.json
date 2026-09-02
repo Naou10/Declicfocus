@@ -21,8 +21,8 @@
             "mobile_icon_width": 40,
             "icon_width": 40,
             "icon_background_type": "circle",
-            "icon_background": "#0B2447",
-            "icon_color": "#FFFFFF",
+            "icon_background": "#0b2447",
+            "icon_color": "#ffffff",
             "title": "Livraison Offerte",
             "content": ""
           }
@@ -34,8 +34,8 @@
             "mobile_icon_width": 40,
             "icon_width": 40,
             "icon_background_type": "circle",
-            "icon_background": "#0B2447",
-            "icon_color": "#FFFFFF",
+            "icon_background": "#0b2447",
+            "icon_color": "#ffffff",
             "title": "Service client 7 jours sur 7",
             "content": ""
           }
@@ -47,8 +47,8 @@
             "mobile_icon_width": 40,
             "icon_width": 40,
             "icon_background_type": "circle",
-            "icon_background": "#0B2447",
-            "icon_color": "#FFFFFF",
+            "icon_background": "#0b2447",
+            "icon_color": "#ffffff",
             "title": "Paiement  100 % sécurisé",
             "content": ""
           }
@@ -60,8 +60,8 @@
             "mobile_icon_width": 40,
             "icon_width": 40,
             "icon_background_type": "circle",
-            "icon_background": "#0B2447",
-            "icon_color": "#FFFFFF",
+            "icon_background": "#0b2447",
+            "icon_color": "#ffffff",
             "title": "Satisfait ou remboursé",
             "content": ""
           }
@@ -108,8 +108,8 @@
         "text": {
           "type": "text",
           "settings": {
-            "title": "About",
-            "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme editor.</p>",
+            "title": "Contactez-nous",
+            "content": "<p>Service Clients : declicfocus@gmail.com</p><p>Horaires : Lundi - Vendredi, 9h00 - 12h00 et 14h00 - 18h00 / Samedi et Dimanche, 10h00 - 12h00</p>",
             "enable_follow_on_shop": true
           }
         }
