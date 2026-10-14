@@ -1,0 +1,203 @@
+{%- assign p = all_products['le-minuteur-declic™'] -%}
+{%- assign purl = p.url | default: '/collections/all' -%}
+<style>
+.dfp{--n:#1B253C;--n2:#26324F;--g:#F0C417;--bg:#F4F5F8;--t:#4A5468;color:var(--n);font-family:inherit;overflow:hidden}
+.dfp *{box-sizing:border-box}
+.dfp h1,.dfp h2,.dfp h3,.dfp p{margin:0}
+.dfp .w{max-width:1160px;margin:0 auto;padding:0 20px}
+.dfp .ey{display:inline-block;font-size:13px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--g)}
+.dfp .ey.d{color:#8A93A8}
+.dfp h2{font-size:clamp(28px,4.2vw,44px);line-height:1.08;font-weight:800;letter-spacing:-.01em;margin:12px 0 14px}
+.dfp .lead{font-size:clamp(16px,1.6vw,19px);line-height:1.55;color:var(--t);max-width:640px}
+.dfp .c{text-align:center}.dfp .c .lead{margin:0 auto}
+.dfp .btn{display:inline-flex;align-items:center;gap:10px;background:var(--g);color:var(--n);font-weight:800;font-size:16px;letter-spacing:.04em;text-transform:uppercase;padding:18px 34px;border-radius:999px;text-decoration:none;box-shadow:0 10px 30px rgba(240,196,23,.28);transition:transform .2s}
+.dfp .btn:hover{transform:translateY(-2px)}
+.dfp .sec{padding:clamp(64px,9vw,110px) 0}
+/* HERO */
+.dfp .hero{background:radial-gradient(1200px 500px at 80% 0%,#2B3A60 0%,var(--n) 60%);color:#fff;padding:clamp(60px,8vw,100px) 0}
+.dfp .hero .w{display:grid;grid-template-columns:1.15fr .85fr;gap:48px;align-items:center}
+.dfp .hero h1{font-size:clamp(36px,5.6vw,64px);line-height:1.02;font-weight:800;letter-spacing:-.02em;margin:16px 0 20px}
+.dfp .hero h1 em{font-style:normal;color:var(--g)}
+.dfp .hero .lead{color:#C9CFDC}
+.dfp .hero .cta{margin-top:32px;display:flex;flex-wrap:wrap;align-items:center;gap:18px}
+.dfp .stars{color:var(--g);letter-spacing:2px}
+.dfp .proof{font-size:14px;color:#C9CFDC;line-height:1.4}
+.dfp .proof b{color:#fff}
+.dfp .disk{width:min(340px,80vw);aspect-ratio:1;margin:0 auto;border-radius:50%;background:radial-gradient(circle at 35% 30%,#2a2f3a,#07090d 70%);box-shadow:0 30px 80px rgba(0,0,0,.5),inset 0 0 0 10px #11141b,inset 0 0 0 12px #2a2f3a;display:flex;flex-direction:column;align-items:center;justify-content:center;position:relative}
+.dfp .disk small{font-size:13px;color:#9aa3b5;letter-spacing:.3em;margin-bottom:6px}
+.dfp .disk .tm{font-family:ui-monospace,Menlo,monospace;font-size:clamp(54px,8vw,76px);color:#fff;font-weight:600;letter-spacing:.02em;text-shadow:0 0 18px rgba(255,255,255,.35)}
+.dfp .disk .dot{width:12px;height:12px;border:2px solid #9aa3b5;border-radius:50%;margin-top:14px}
+.dfp .disk:after{content:"";position:absolute;inset:-14px;border-radius:50%;border:2px dashed rgba(240,196,23,.35);animation:dfspin 40s linear infinite}
+@keyframes dfspin{to{transform:rotate(360deg)}}
+/* PROBLEM */
+.dfp .prob{background:#fff}
+.dfp .cards{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin-top:44px}
+.dfp .card{background:var(--bg);border-radius:20px;padding:30px 26px;text-align:left}
+.dfp .card .ic{width:48px;height:48px;border-radius:14px;background:var(--n);display:flex;align-items:center;justify-content:center;margin-bottom:18px}
+.dfp .card .ic svg{width:24px;height:24px;stroke:#fff;fill:none;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+.dfp .card h3{font-size:20px;font-weight:800;margin-bottom:8px}
+.dfp .card p{font-size:15.5px;line-height:1.5;color:var(--t)}
+.dfp .stat{margin:40px auto 0;max-width:760px;background:var(--n);color:#fff;border-radius:20px;padding:26px 30px;display:flex;gap:22px;align-items:center;text-align:left}
+.dfp .stat b{font-size:46px;font-weight:800;color:var(--g);line-height:1;white-space:nowrap}
+.dfp .stat p{font-size:16px;line-height:1.45;color:#D6DBE6}
+.dfp .stat small{display:block;font-size:12px;color:#8A93A8;margin-top:6px}
+/* METHOD */
+.dfp .meth{background:var(--bg)}
+.dfp .meth img{width:100%;height:auto;border-radius:24px;margin-top:40px;box-shadow:0 20px 60px rgba(27,37,60,.10);display:block}
+/* WHY DECLIC */
+.dfp .why{background:#fff}
+.dfp .vs{display:grid;grid-template-columns:1fr 1fr;gap:20px;margin-top:44px}
+.dfp .col{border-radius:22px;padding:32px 30px}
+.dfp .col.bad{background:var(--bg)}
+.dfp .col.good{background:var(--n);color:#fff}
+.dfp .col h3{font-size:21px;font-weight:800;margin-bottom:18px}
+.dfp .col ul{list-style:none;margin:0;padding:0;display:grid;gap:13px}
+.dfp .col li{display:flex;gap:12px;font-size:16px;line-height:1.4;align-items:flex-start}
+.dfp .col li i{flex:0 0 24px;height:24px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-style:normal;font-weight:800;font-size:13px}
+.dfp .col.bad li{color:var(--t)}
+.dfp .col.bad li i{background:#E3E6EC;color:#8A93A8}
+.dfp .col.good li i{background:var(--g);color:var(--n)}
+/* PERSONAS */
+.dfp .who{background:var(--bg)}
+.dfp .row{display:grid;grid-template-columns:1fr 1fr;gap:clamp(28px,5vw,64px);align-items:center;margin-top:clamp(48px,6vw,80px)}
+.dfp .row.r .img{order:2}
+.dfp .row .img img{width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:24px;display:block;box-shadow:0 20px 60px rgba(27,37,60,.14)}
+.dfp .tag{display:inline-block;background:var(--n);color:#fff;font-size:12px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;padding:7px 14px;border-radius:999px}
+.dfp .row h3{font-size:clamp(26px,3.2vw,36px);line-height:1.1;font-weight:800;margin:16px 0 12px}
+.dfp .row .pb{font-size:16.5px;line-height:1.55;color:var(--t);margin-bottom:18px}
+.dfp .ben{list-style:none;padding:0;margin:0;display:grid;gap:11px}
+.dfp .ben li{display:flex;gap:12px;font-size:16px;font-weight:600;line-height:1.4}
+.dfp .ben li:before{content:"✓";flex:0 0 24px;height:24px;border-radius:50%;background:var(--g);color:var(--n);font-weight:800;font-size:13px;display:flex;align-items:center;justify-content:center}
+/* PROOF */
+.dfp .trust{background:#fff}
+.dfp .nums{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-top:40px}
+.dfp .num{background:var(--bg);border-radius:20px;padding:28px 18px;text-align:center}
+.dfp .num b{display:block;font-size:clamp(30px,3.6vw,42px);font-weight:800;line-height:1}
+.dfp .num span{display:block;margin-top:8px;font-size:14.5px;color:var(--t);line-height:1.35}
+/* FINAL */
+.dfp .fin{background:radial-gradient(900px 400px at 50% 0%,#2B3A60 0%,var(--n) 65%);color:#fff;text-align:center}
+.dfp .fin h2{color:#fff}
+.dfp .fin .lead{color:#C9CFDC;margin:0 auto}
+.dfp .fin .price{margin:26px 0 30px;font-size:18px;color:#C9CFDC}
+.dfp .fin .price b{font-size:34px;color:#fff;margin-right:10px}
+.dfp .fin .price s{opacity:.7}
+.dfp .mini{display:flex;flex-wrap:wrap;justify-content:center;gap:10px 26px;margin-top:26px;font-size:14px;color:#C9CFDC}
+@media(max-width:900px){
+.dfp .hero .w,.dfp .row,.dfp .vs{grid-template-columns:1fr}
+.dfp .row.r .img{order:0}
+.dfp .cards{grid-template-columns:1fr}
+.dfp .nums{grid-template-columns:1fr 1fr}
+.dfp .hero{text-align:center}.dfp .hero .lead{margin:0 auto}.dfp .hero .cta{justify-content:center}
+.dfp .stat{flex-direction:column;text-align:center}
+}
+</style>
+
+<div class="dfp">
+
+<section class="hero"><div class="w">
+  <div>
+    <span class="ey">La méthode Pomodoro × Déclic™</span>
+    <h1>25 minutes pour <em>reprendre le contrôle</em> de votre attention.</h1>
+    <p class="lead">Vous travaillez beaucoup mais avancez peu ? Ce n'est pas un manque de volonté. C'est un problème de méthode. Un geste, un minuteur, et votre cerveau sait enfin quoi faire.</p>
+    <div class="cta">
+      <a class="btn" href="{{ purl }}">Je retrouve mon focus →</a>
+      <div class="proof"><span class="stars">★★★★★</span> <b>4,7/5</b><br>+4 500 clients concentrés</div>
+    </div>
+  </div>
+  <div><div class="disk"><small>M&nbsp;&nbsp;&nbsp;S</small><div class="tm" id="dfpTm">25:00</div><div class="dot"></div></div></div>
+</div></section>
+
+<section class="sec prob"><div class="w c">
+  <span class="ey d">Le problème</span>
+  <h2>Vous vous asseyez pour travailler…<br>et 2 heures plus tard ?</h2>
+  <p class="lead">Une notification. Un message. « Juste 2 minutes » sur Instagram. Votre journée se dissout, et votre to-do list ne bouge pas.</p>
+  <div class="cards">
+    <div class="card"><div class="ic"><svg viewBox="0 0 24 24"><rect x="6" y="2" width="12" height="20" rx="2.5"/><path d="M11 18h2"/></svg></div><h3>Le téléphone vous vole</h3><p>Vous lancez un minuteur sur votre portable… et vous voilà sur vos notifications 20 minutes plus tard.</p></div>
+    <div class="card"><div class="ic"><svg viewBox="0 0 24 24"><path d="M4 6h16M4 12h10M4 18h7"/><circle cx="18" cy="16" r="3"/></svg></div><h3>Tout en même temps</h3><p>Mails, appels, tâches qui s'empilent. Vous sautez d'une chose à l'autre sans rien terminer.</p></div>
+    <div class="card"><div class="ic"><svg viewBox="0 0 24 24"><path d="M12 3a7 7 0 0 0-4 12.7V19h8v-3.3A7 7 0 0 0 12 3z"/><path d="M10 22h4"/></svg></div><h3>Le cerveau saturé</h3><p>Sans vraie pause, la fatigue s'installe. Vous relisez trois fois la même ligne. Le soir, vous êtes vidé.</p></div>
+  </div>
+  <div class="stat"><b>23 min</b><p>C'est le temps moyen nécessaire pour retrouver sa concentration après une simple interruption.<small>Étude de l'Université de Californie, Irvine (Gloria Mark)</small></p></div>
+</div></section>
+
+<section class="sec meth"><div class="w c">
+  <span class="ey d">La solution</span>
+  <h2>La méthode Pomodoro :<br>simple, prouvée, redoutable.</h2>
+  <p class="lead">Inventée par Francesco Cirillo avec… un minuteur de cuisine. Le principe : votre cerveau n'a qu'à tenir 25 minutes, pas une journée entière. Résultat : vous commencez plus vite, vous allez plus loin, vous finissez moins fatigué.</p>
+  <img src="{{ 'image.png' | file_img_url: '1600x' }}" alt="Comment fonctionne la méthode Pomodoro en 4 étapes" loading="lazy" width="1536" height="1024">
+</div></section>
+
+<section class="sec why"><div class="w c">
+  <span class="ey d">Pourquoi Déclic™</span>
+  <h2>Le Pomodoro marche.<br>Votre téléphone, non.</h2>
+  <p class="lead">Pour vraiment entrer dans votre bulle, le minuteur doit être <b>hors de votre téléphone</b>. C'est tout le sens de Déclic™.</p>
+  <div class="vs">
+    <div class="col bad"><h3>Minuteur sur téléphone</h3><ul>
+      <li><i>✕</i>Vous déverrouillez… et vous tombez sur vos notifications</li>
+      <li><i>✕</i>Une appli à ouvrir, des réglages, des pubs</li>
+      <li><i>✕</i>Écran éteint : vous ne voyez pas le temps passer</li>
+      <li><i>✕</i>La tentation reste à portée de main</li>
+    </ul></div>
+    <div class="col good"><h3>Le minuteur Déclic™</h3><ul>
+      <li><i>✓</i>Vous tournez, c'est lancé. Un geste, zéro friction</li>
+      <li><i>✓</i>Sans appli, sans notification, sans distraction</li>
+      <li><i>✓</i>Grand affichage lumineux, visible d'un coup d'œil</li>
+      <li><i>✓</i>Magnétique : sur le bureau, le frigo ou le tableau</li>
+    </ul></div>
+  </div>
+</div></section>
+
+<section class="sec who"><div class="w">
+  <div class="c"><span class="ey d">Pour qui ?</span><h2>Un minuteur, mille façons<br>de reprendre le contrôle.</h2></div>
+
+  <div class="row">
+    <div class="img"><img src="{{ 'image_92e4625a-4674-40b2-aa13-11a142e47f28.png' | file_img_url: '1200x' }}" alt="Entrepreneur concentré avec le minuteur Déclic" loading="lazy"></div>
+    <div><span class="tag">Entrepreneurs & infopreneurs</span>
+      <h3>Moins d'heures. Plus de résultats.</h3>
+      <p class="pb">Vous êtes votre propre patron, donc personne ne protège votre temps. Les messages clients, les réseaux, les « urgences » grignotent vos journées.</p>
+      <ul class="ben"><li>Des blocs de travail profond, sans interruption</li><li>Vos tâches à forte valeur enfin bouclées</li><li>Vous coupez le soir sans culpabilité</li></ul>
+    </div>
+  </div>
+
+  <div class="row r">
+    <div class="img"><img src="{{ 'image_0b54cd3d-19ea-40da-888d-fc659aca865d.png' | file_img_url: '1200x' }}" alt="Enfants qui révisent avec le minuteur Déclic" loading="lazy"></div>
+    <div><span class="tag">Enfants & étudiants</span>
+      <h3>Des devoirs sans bataille.</h3>
+      <p class="pb">Votre enfant décroche au bout de 10 minutes ? Le temps devient visible et concret : il sait combien il lui reste, et que la pause arrive.</p>
+      <ul class="ben"><li>Sessions courtes et adaptées (15, 20, 25 min)</li><li>Plus d'autonomie, moins de rappels à l'ordre</li><li>Des révisions efficaces avant les contrôles</li></ul>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="img"><img src="{{ 'image_a5e69dac-9ba4-4c5d-acdb-83cd943533f1.png' | file_img_url: '1200x' }}" alt="Femme en cuisine avec le minuteur Déclic aimanté au frigo" loading="lazy"></div>
+    <div><span class="tag">En cuisine</span>
+      <h3>Plus jamais de plat oublié.</h3>
+      <p class="pb">Beaucoup de nos clientes l'ont adopté en cuisine. Aimanté sur le frigo, il se voit de loin, même les mains occupées.</p>
+      <ul class="ben"><li>Gros chiffres lisibles de l'autre bout de la pièce</li><li>Un tour de molette, sans toucher votre téléphone</li><li>Cuissons maîtrisées, esprit libéré</li></ul>
+    </div>
+  </div>
+</div></section>
+
+<section class="sec trust"><div class="w c">
+  <span class="ey d">Ils ont fait le déclic</span>
+  <h2>Rejoignez ceux qui ont retrouvé leur focus.</h2>
+  <div class="nums">
+    <div class="num"><b>+4 500</b><span>clients conquis</span></div>
+    <div class="num"><b>4,7/5</b><span><span class="stars">★★★★★</span>note moyenne</span></div>
+    <div class="num"><b>24-48h</b><span>expédition, livraison suivie offerte</span></div>
+    <div class="num"><b>30 j</b><span>satisfait ou remboursé</span></div>
+  </div>
+</div></section>
+
+<section class="sec fin"><div class="w">
+  <span class="ey">Votre prochaine session commence maintenant</span>
+  <h2>Un geste. 25 minutes.<br>Une journée qui avance enfin.</h2>
+  <p class="lead">Posez votre téléphone. Tournez Déclic™. Et regardez votre to-do list fondre.</p>
+  <div class="price">{% if p %}<b>{{ p.price | money }}</b>{% if p.compare_at_price > p.price %}<s>{{ p.compare_at_price | money }}</s>{% endif %}{% endif %}</div>
+  <a class="btn" href="{{ purl }}">Je veux mon minuteur Déclic™ →</a>
+  <div class="mini"><span>🔒 Paiement 100% sécurisé</span><span>🚚 Livraison offerte</span><span>↩︎ Satisfait ou remboursé</span></div>
+</div></section>
+
+</div>
+<script>
+(function(){var el=document.getElementById('dfpTm');if(!el)return;var s=25*60;setInterval(function(){s=s>0?s-1:25*60;el.textContent=String(Math.floor(s/60)).padStart(2,'0')+':'+String(s%60).padStart(2,'0')},1000)})();
+</script>
