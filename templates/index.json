@@ -15,8 +15,8 @@
         "slide-1": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/BANNIERE_LAPTOP_DECLIC.png",
-            "mobile_image": "shopify://shop_images/BANNIERE_DECLIC_MOBILE.png",
+            "image": "shopify://shop_images/Banniere_de_concentration_avec_minuteur_25_00_1.png",
+            "mobile_image": "shopify://shop_images/Minuteur_magnetique_productivite_au_quotidien.png",
             "content_max_width": 780,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
@@ -153,7 +153,7 @@
           "settings": {}
         },
         "rapi_bundle_rapi_bundle_kBMwaH": {
-          "type": "shopify://apps/rapi-bundle/blocks/rapi-bundle/99617c17-a32b-4e70-a883-7a155610d032",
+          "type": "shopify://apps/rapid-bundle/blocks/rapi-bundle/99617c17-a32b-4e70-a883-7a155610d032",
           "settings": {
             "product": "{{section.settings.product}}"
           }
