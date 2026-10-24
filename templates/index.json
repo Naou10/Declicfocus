@@ -15,7 +15,7 @@
       "settings": {
         "video": "shopify://files/videos/Declic-Focus-Hero-Desktop (1).mp4",
         "video_mobile": "shopify://files/videos/Declic-Focus-Hero-Mobile.mp4",
-        "overlay": 65,
+        "overlay": 30,
         "height_desktop": 85,
         "height_mobile": 80,
         "heading": "Ne te laisse plus distraire par ton portable.",
