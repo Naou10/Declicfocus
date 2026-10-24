@@ -12,16 +12,16 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
-        "slide-1": {
-          "type": "image",
+        "video_nb8b7f": {
+          "type": "video",
           "settings": {
-            "image": "shopify://shop_images/Banniere_de_concentration_avec_minuteur_25_00_1.png",
-            "mobile_image": "shopify://shop_images/Minuteur_magnetique_productivite_au_quotidien.png",
+            "video": "shopify://files/videos/Declic-Focus-Hero-Desktop (1).mp4",
+            "mobile_video": "shopify://files/videos/Declic-Focus-Hero-Mobile.mp4",
             "content_max_width": 780,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
-            "subheading": "",
-            "title": "",
+            "subheading": "Tell your story",
+            "title": "Slide title",
             "heading_tag": "h0",
             "button_text": "",
             "button_link": "",
@@ -29,14 +29,14 @@
             "button_background": "#ffffff",
             "button_text_color": "#000000",
             "overlay_color": "#000000",
-            "overlay_opacity": 0,
+            "overlay_opacity": 30,
             "background": "",
             "background_gradient": ""
           }
         }
       },
       "block_order": [
-        "slide-1"
+        "video_nb8b7f"
       ],
       "settings": {
         "full_width": true,
