@@ -9,6 +9,24 @@
  */
 {
   "sections": {
+    "declic_hero_chkEYy": {
+      "type": "declic-hero",
+      "name": "Hero Déclic Focus",
+      "settings": {
+        "video": "shopify://files/videos/Declic-Focus-Hero-Desktop (1).mp4",
+        "video_mobile": "shopify://files/videos/Declic-Focus-Hero-Mobile.mp4",
+        "overlay": 65,
+        "height_desktop": 85,
+        "height_mobile": 80,
+        "heading": "Ne remets plus ta vie à demain.",
+        "subheading": "Avec Déclic Focus, lance tes tâches, avance sur l’essentiel et reprends ton temps.",
+        "button_label": "Je passe à l’action",
+        "button_link": "",
+        "accent": "#1F8A70",
+        "trust_1": "Élu outil de productivité n°1 en 2022",
+        "trust_2": "+4 500 personnes utilisent déjà Déclic Focus"
+      }
+    },
     "slideshow": {
       "type": "slideshow",
       "blocks": {
@@ -18,11 +36,11 @@
             "video": "shopify://files/videos/Declic-Focus-Hero-Desktop (1).mp4",
             "mobile_video": "shopify://files/videos/Declic-Focus-Hero-Mobile.mp4",
             "content_max_width": 780,
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "subheading": "Tell your story",
-            "title": "Slide title",
-            "heading_tag": "h0",
+            "mobile_text_position": "place-self-start text-start",
+            "desktop_text_position": "sm:place-self-start sm:text-start",
+            "subheading": "Avec Déclic Focus, lance tes tâches, avance sur l’essentiel et reprends ton temps.",
+            "title": "Ne remets plus ta vie à demain.",
+            "heading_tag": "h1",
             "button_text": "",
             "button_link": "",
             "text_color": "#ffffff",
@@ -38,6 +56,7 @@
       "block_order": [
         "video_nb8b7f"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "allow_transparent_header": false,
@@ -393,6 +412,7 @@
     }
   },
   "order": [
+    "declic_hero_chkEYy",
     "slideshow",
     "logo_list_WtEEbK",
     "featured_product_MpQGwA",
