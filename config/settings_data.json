@@ -45,6 +45,11 @@
         "type": "shopify://apps/rapi-bundle/blocks/app-embed/99617c17-a32b-4e70-a883-7a155610d032",
         "disabled": false,
         "settings": {}
+      },
+      "12264981854551093274": {
+        "type": "shopify://apps/zigpoll-customer-surveys/blocks/zigpoll-embed/019a552e-a887-7983-9977-f95313668ab3",
+        "disabled": false,
+        "settings": {}
       }
     }
   },
