@@ -135,12 +135,6 @@
     "featured_product_MpQGwA": {
       "type": "featured-product",
       "blocks": {
-        "liquid_yRUjJX": {
-          "type": "liquid",
-          "settings": {
-            "liquid": "<div class=\"df-trust\">\n  <svg class=\"df-trust__badge\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n    <path d=\"M12 1.5l2.4 1.8 3-.1.9 2.8 2.5 1.7-.9 2.9.9 2.9-2.5 1.7-.9 2.8-3-.1L12 22.5l-2.4-1.8-3 .1-.9-2.8-2.5-1.7.9-2.9-.9-2.9 2.5-1.7.9-2.8 3 .1z\" fill=\"currentColor\"/>\n    <path d=\"M8 12.3l2.6 2.6L16 9.5\" fill=\"none\" stroke=\"#fff\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n  </svg>\n  <p class=\"df-trust__text\">\n    Déclic Focus a déjà aidé <strong>plus de 4 500 personnes</strong> à retrouver leur concentration\n  </p>\n  <div class=\"df-trust__avatars\" aria-hidden=\"true\">\n    <img src=\"https://d8j0ntlcm91z4.cloudfront.net/user_3Bg6AhENwE6t6gFu4qzAL4b204Z/hf_20261027_171204_b04e51d5-7485-4472-847d-46269dc1512e.png\" alt=\"\" loading=\"lazy\">\n    <img src=\"https://d8j0ntlcm91z4.cloudfront.net/user_3Bg6AhENwE6t6gFu4qzAL4b204Z/hf_20261027_171203_690644a7-3cec-4e2d-9391-68daf0a85469.png\" alt=\"\" loading=\"lazy\">\n    <img src=\"https://d8j0ntlcm91z4.cloudfront.net/user_3Bg6AhENwE6t6gFu4qzAL4b204Z/hf_20261027_171204_066afc33-29c4-4d61-b1ac-f8e63b5f0549.png\" alt=\"\" loading=\"lazy\">\n    <img src=\"https://d8j0ntlcm91z4.cloudfront.net/user_3Bg6AhENwE6t6gFu4qzAL4b204Z/hf_20261027_171204_2ce7025d-114c-4e87-ac4a-d337c6004de7.png\" alt=\"\" loading=\"lazy\">\n  </div>\n</div>\n\n<style>\n.df-trust{display:flex;align-items:center;gap:10px;flex-wrap:wrap;padding:10px 14px;background:#f5f6f8;border-radius:12px;margin:12px 0}\n.df-trust__badge{width:24px;height:24px;color:#111;flex-shrink:0}\n.df-trust__text{margin:0;font-size:14px;line-height:1.35;color:#111;flex:1 1 180px}\n.df-trust__text strong{color:#3b5bdb}\n.df-trust__avatars{display:flex}\n.df-trust__avatars img{width:34px;height:34px;border-radius:50%;object-fit:cover;border:2px solid #3b5bdb;margin-left:-9px;background:#fff}\n.df-trust__avatars img:first-child{margin-left:0}\n</style>"
-          }
-        },
         "liquid_MhwMdY": {
           "type": "liquid",
           "settings": {
@@ -194,6 +188,12 @@
             "payment_button_text_color": ""
           }
         },
+        "liquid_yRUjJX": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div class=\"df-trust\">\n  <svg class=\"df-trust__badge\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n    <path d=\"M12 1.5l2.4 1.8 3-.1.9 2.8 2.5 1.7-.9 2.9.9 2.9-2.5 1.7-.9 2.8-3-.1L12 22.5l-2.4-1.8-3 .1-.9-2.8-2.5-1.7.9-2.9-.9-2.9 2.5-1.7.9-2.8 3 .1z\" fill=\"currentColor\"/>\n    <path d=\"M8 12.3l2.6 2.6L16 9.5\" fill=\"none\" stroke=\"#fff\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n  </svg>\n  <p class=\"df-trust__text\">\n    Déclic Focus a déjà aidé <strong>plus de 4 500 personnes</strong> à retrouver leur concentration\n  </p>\n  <div class=\"df-trust__avatars\" aria-hidden=\"true\">\n    <img src=\"https://d8j0ntlcm91z4.cloudfront.net/user_3Bg6AhENwE6t6gFu4qzAL4b204Z/hf_20261027_171204_b04e51d5-7485-4472-847d-46269dc1512e.png\" alt=\"\" loading=\"lazy\">\n    <img src=\"https://d8j0ntlcm91z4.cloudfront.net/user_3Bg6AhENwE6t6gFu4qzAL4b204Z/hf_20261027_171203_690644a7-3cec-4e2d-9391-68daf0a85469.png\" alt=\"\" loading=\"lazy\">\n    <img src=\"https://d8j0ntlcm91z4.cloudfront.net/user_3Bg6AhENwE6t6gFu4qzAL4b204Z/hf_20261027_171204_066afc33-29c4-4d61-b1ac-f8e63b5f0549.png\" alt=\"\" loading=\"lazy\">\n    <img src=\"https://d8j0ntlcm91z4.cloudfront.net/user_3Bg6AhENwE6t6gFu4qzAL4b204Z/hf_20261027_171204_2ce7025d-114c-4e87-ac4a-d337c6004de7.png\" alt=\"\" loading=\"lazy\">\n  </div>\n</div>\n\n<style>\n.df-trust{display:flex;align-items:center;gap:10px;flex-wrap:wrap;padding:10px 14px;background:#f5f6f8;border-radius:12px;margin:12px 0}\n.df-trust__badge{width:24px;height:24px;color:#111;flex-shrink:0}\n.df-trust__text{margin:0;font-size:14px;line-height:1.35;color:#111;flex:1 1 180px}\n.df-trust__text strong{color:#3b5bdb}\n.df-trust__avatars{display:flex}\n.df-trust__avatars img{width:34px;height:34px;border-radius:50%;object-fit:cover;border:2px solid #3b5bdb;margin-left:-9px;background:#fff}\n.df-trust__avatars img:first-child{margin-left:0}\n</style>"
+          }
+        },
         "pickup_availability_F4iBRW": {
           "type": "pickup_availability",
           "settings": {}
@@ -212,7 +212,6 @@
         }
       },
       "block_order": [
-        "liquid_yRUjJX",
         "liquid_MhwMdY",
         "vendor_eeqGBd",
         "title_mcNGUx",
@@ -222,6 +221,7 @@
         "separator_WrrEwg",
         "rapi_bundle_rapi_bundle_kBMwaH",
         "buy_buttons_yywFm9",
+        "liquid_yRUjJX",
         "pickup_availability_F4iBRW",
         "liquid_fWkHji",
         "liquid_i6riXM"
